@@ -1,0 +1,52 @@
+{
+  "animes": [
+    {
+      "id": 1,
+      "name": "Dragon ball",
+      "carousel_image": "https://i1.wp.com/alternativanerd.com.br/wp-content/uploads/2019/11/dbcapa.jpg",
+      "poster_image": "https://images-na.ssl-images-amazon.com/images/I/812gY7dvagL.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Dragon_Ball_anime_logo.png",
+      "description": "Dragon Ball (ドラゴンボール Doragon Bōru?) é uma série de anime japonesa produzida pela Toei Animation. É uma adaptação dos primeiros 194 capítulos do mangá de mesmo nome criado por Akira Toriyama, que foram publicados na Weekly Shōnen Jump de 1984 a 1988. O anime é composto de 153 episódios[1] que foram transmitidos na Fuji TV de 26 de fevereiro de 1986 a 12 de abril de 1989. Dragon Ball segue as aventuras do protagonista Goku, um forte garoto ingênuo que, ao se encontrar com a adolescente Bulma, se propõe a reunir as sete desejáveis Esferas do Dragão. Depois ele se torna um estudante de artes marciais com o mestre Kame-Sennin, e um ano depois ele e seu amigo Kuririn entram em um torneio que atrai os lutadores mais poderosos do mundo. Ele então parte sozinho em uma nova busca pelas Esferas do Dragão e acaba enfrentando e destruindo o Exército da Red Ribbon sozinho.[2] Três anos depois Goku e Kuririn participam de um outro torneio, porém Kuririn é mais tarde assassinado após esta competição, e Goku exige vingança sobre seu assassino: Piccolo Daimaoh.[3] Três anos mais tarde, Goku deve lutar contra o filho de Piccolo Daimaoh, Piccolo Junior. Os restantes 325 capítulos do mangá foram adaptados para o anime Dragon Ball Z.",
+      "clicks": 10,
+      "date": "1986-02-26"
+    },
+    {
+      "id": 2,
+      "name": "Naruto",
+      "carousel_image": "https://criticalhits.com.br/wp-content/uploads/2020/07/naruto-lego-910x520.jpg",
+      "poster_image": "https://img1.ak.crunchyroll.com/i/spire4/5568ffb263f6bcba85a639980b80dd9a1612993223_full.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Naruto_logo.svg/2560px-Naruto_logo.svg.png",
+      "description": "A Vila Oculta da Folha é lar dos ninjas mais sorrateiros. Mas doze anos atrás, uma temível Raposa de Nove Caudas aterrorizou a vila, até ser derrotada e selada no corpo de um garoto recém-nascido.",
+      "clicks": 15,
+      "date": "1999-09-21"
+    },
+    {
+      "id": 3,
+      "name": "Another",
+      "carousel_image": "https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2020/08/Captura-de-tela-2020-08-10-22.06.39.png?resize=696%2C394&ssl=1",
+      "poster_image": "https://img1.ak.crunchyroll.com/i/spire1/6a63d28dc4193210a69c83f1fca67bf21325886769_full.jpg",
+      "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Novel_Another_%28%E3%82%A2%E3%83%8A%E3%82%B6%E3%83%BC%29_logo.svg/1200px-Novel_Another_%28%E3%82%A2%E3%83%8A%E3%82%B6%E3%83%BC%29_logo.svg.png",
+      "description": "Aquela turma da escola guardava um segredo proibido de se contar... Na primavera de 1998, quando o Sakakibara (15 anos) foi transferido para a Escola de Ensino Fundamental Yomiyama do Norte, ele sentia que uma sensação estranha pairando no ar, lhe parecia como um temor por parte de seus colegas. Até que então, o Kouichi é atraído por uma garota misteriosa chamada Mei Misaki. Ele tenta se aproximar dela para desvendar um pouco daquele seu mistério, mas conforme ele se aproxima um desastre que ele jamais imaginara ocorre! O que há de errado neste 'mundo'?!",
+      "clicks": 8,
+      "date": "2012-01-10"
+    }
+  ],
+  "schedule": [
+    {
+      "name": "Boku no Hero Academia",
+      "day": "Sábado"
+    },
+    {
+      "name": "Dragon Ball",
+      "day": "Domingo"
+    },
+    {
+      "name": "Naruto",
+      "day": "Segunda"
+    },
+    {
+      "name": "Another",
+      "day": "Quarta"
+    }
+  ]
+}
