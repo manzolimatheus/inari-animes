@@ -108,7 +108,8 @@ h1 {
   grid-template-columns: 75% 25%;
 }
 
-.ep-animes, .ordem {
+.ep-animes,
+.ordem {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 12px;
@@ -130,5 +131,4 @@ h1 {
   z-index: 1;
   text-shadow: 0 0 5px black;
 }
-
 </style>

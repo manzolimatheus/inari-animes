@@ -1,20 +1,23 @@
 <template>
   <Navbar />
+  <Toast>Olá, tudo bom com você? vimos que voce vla bla bla bla</Toast>
   <router-view />
 </template>
 
 <script>
 import Navbar from "@/components/Navbar.vue";
-
+import Toast from "@/components/Toast.vue";
 export default {
   components: {
     Navbar,
+    Toast,
   },
 };
 </script>
 
 <style>
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 * {
   font-family: "Inter", sans-serif;
   margin: 0;

@@ -1,6 +1,6 @@
 <template>
-  <div class="calendar" v-show="schedule">
-    <Carousel :animes="animes" />
+  <div class="calendar" v-show="data">
+    <Carousel :animes="data" />
     <div class="container mb-3 p-3">
       <h1 class="mt-3">
         <ion-icon name="calendar-outline"></ion-icon> Cronograma de lançamentos
@@ -13,12 +13,12 @@
             </h2>
             <hr />
             <div v-if="getDay(day).length > 0">
-              <p
-                v-for="(anime, index) in getDay(day)"
-                :key="index"
-                class="p-3"
-              >
-                {{ anime.name }}
+              <p v-for="(anime, index) in getDay(day)" :key="index" class="p-3">
+                <Card
+                  :title="anime.name"
+                  :description="anime.description"
+                  :image="anime.poster_image"
+                />
               </p>
             </div>
             <p class="mt-3" v-else>
@@ -35,15 +35,17 @@
 <script>
 import Carousel from "@/components/Carousel.vue";
 import axios from "axios";
+import Card from "@/components/Card.vue";
 
 export default {
   name: "Calendar",
   components: {
     Carousel,
+    Card,
   },
   data() {
     return {
-      schedule: [],
+      data: [],
       days: [
         "Segunda",
         "Terça",
@@ -53,27 +55,23 @@ export default {
         "Sábado",
         "Domingo",
       ],
-      animes: [],
     };
   },
   methods: {
     getDay(day) {
-      return this.schedule.filter((anime) => anime.day === day);
+      return this.data.filter((anime) => anime.schedule[0].day === day);
     },
-    getSchedule() {
-      axios.get("http://localhost:3000/schedule").then((response) => {
-        this.schedule = response.data;
-      });
-    },
-    getAnimes() {
-      axios.get("http://localhost:3000/animes").then((response) => {
-        this.animes = response.data;
-      });
+    getData() {
+      axios
+        .get("http://localhost:3000/animes?_embed=schedule")
+        .then((response) => {
+          this.data = response.data;
+        });
     },
   },
   mounted() {
-    this.getSchedule();
-    this.getAnimes();
+    this.getData();
+    console.log(this.data);
   },
 };
 </script>

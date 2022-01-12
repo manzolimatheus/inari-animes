@@ -1,14 +1,11 @@
 <template>
   <header>
     <nav id="navpc">
-      <router-link to="/">
-        <img src="@/assets/img/logo.jpg" alt="Logo" class="logo" />
-      </router-link>
       <router-link to="/"
         ><ion-icon name="home-outline"></ion-icon>Início</router-link
       >
-      <router-link to="/"
-        ><ion-icon name="easel-outline"></ion-icon>Animes
+      <router-link to="/animes"
+        ><ion-icon name="easel-outline"></ion-icon>Categorias
       </router-link>
       <router-link to="/calendar"
         ><ion-icon name="today-outline"></ion-icon>Calendário</router-link
@@ -16,7 +13,7 @@
       <router-link to="/requests"
         ><ion-icon name="send-outline"></ion-icon>Pedidos</router-link
       >
-      <router-link to="/"
+      <router-link to="/search"
         ><ion-icon name="search-outline"></ion-icon> Pesquisar</router-link
       >
       <router-link to="/"
@@ -38,16 +35,16 @@
       <router-link to="/"
         ><ion-icon name="home-outline"></ion-icon>Início</router-link
       >
-      <router-link to="/"
-        ><ion-icon name="easel-outline"></ion-icon>Animes
+      <router-link to="/animes"
+        ><ion-icon name="easel-outline"></ion-icon>Categorias
       </router-link>
       <router-link to="/calendar"
         ><ion-icon name="today-outline"></ion-icon>Calendário</router-link
       >
-      <router-link to="/"
+      <router-link to="/requests"
         ><ion-icon name="send-outline"></ion-icon>Pedidos</router-link
       >
-      <router-link to="/"
+      <router-link to="/search"
         ><ion-icon name="search-outline"></ion-icon> Pesquisar</router-link
       >
       <router-link to="/"

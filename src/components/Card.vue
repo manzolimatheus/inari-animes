@@ -34,7 +34,8 @@ export default {
     },
     image: {
       type: String,
-      default: "https://images-americanas.b2w.io/produtos/01/00/img/1987712/8/1987712881_1GG.jpg",
+      default:
+        "https://images-americanas.b2w.io/produtos/01/00/img/1987712/8/1987712881_1GG.jpg",
     },
     link: {
       type: String,
